@@ -85,14 +85,17 @@ body{
 .pencil{
     height: 200px;
     width: 200px;
+    margin-left: 30%;
 }
 .document{
     height: 200px;
     width: 200px;
+    margin-left: 30%;
 }
 .mobile{
     height: 200px;
     width: 200px;
+    margin-left: 30%;
 }
 .button{
     margin-top: 30px;
@@ -106,6 +109,7 @@ body{
     cursor: pointer;
     border: none;
     text-align: center;
+
 }
 .a{
     color: red;
@@ -132,7 +136,7 @@ body{
     padding: 30px;
     margin-bottom: 20px;
     align-content: center;
-    
+    margin-left: 30%;
 }
 .GD{
     width: 310px;
@@ -141,6 +145,7 @@ body{
     padding: 30px;
     margin-bottom: 20px;
     align-content: center;
+    margin-left: 30%;
 }
 .OS{
     width: 310px;
@@ -149,6 +154,7 @@ body{
     padding: 30px;
     margin-bottom: 20px;
     align-content: center;
+    margin-left: 30%;
 }
 .tensile{
     height: 250px;
@@ -250,4 +256,22 @@ a.active,a:hover{
     margin-bottom: 20px;
     align-content: center;
     color: white;
+}
+.btn:hover{
+    margin-top: 30px;
+    color: white;
+    height: 40px;
+    width: 100px;
+    padding: 15px 30px;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    text-align: center;
+}
+.container{
+    padding-left: 30%;
+}
+.pics{
+    padding-left: 25%;
 }
