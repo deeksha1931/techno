@@ -15,6 +15,7 @@
 }
 body{
     padding: 30px;
+    font-family: sans-serif;
 }
 
 .logo{
@@ -111,6 +112,7 @@ body{
     text-align: center;}
 .a{
     color: red;
+    font-weight: bold;
 }
 .b{
     height: 150px;
@@ -157,42 +159,30 @@ body{
     margin-left: 30%;
     text-align: center;
 }
-.tensile{
-    height: 250px;
-    width: 250px;
-}
+
 nav{
     background: #313a41;
-    height: 60px;
+    height: 80px;
     width: 100%;
-    overflow: hidden;
     position: fixed;
     padding: 0%;
     top: 0;
-
 }
 label .logo{
     color: white;
-    font-size: 30px;
     line-height: 80px;
     padding: 0 100px;
     font-weight: bold;
     position: fixed;
-    width: 100%;
-    height: 100px;
-    top: 30px;
-
 }
 nav ul{
     float:right ;
     margin-right:20px ;
-
 }
 nav ul li{
     display: inline-block;
     line-height: 80px;
-    margin: 0 5px;
-
+    margin: 0 50px;
 }
 nav ul li a{
     color: white;
@@ -202,8 +192,9 @@ nav ul li a{
     border-radius: 3px;
 }
 a.active,a:hover{
-    background: #2c353b;
+    background:white;
     transition: 0.5s;
+    color: black;
 }
 .checkbtn{
     font-size: 30px;
@@ -266,7 +257,6 @@ a.active,a:hover{
     align-content: center;
     color: white;
     text-align: center;
-    
 }
 .btn{
     background: rgba(0, 0, 0, 0.2);
@@ -287,6 +277,7 @@ a.active,a:hover{
 .head{
     color: red;
     text-align: center;
+    font-weight: bold;
 }
 p{
     font-size: larger;
@@ -297,7 +288,6 @@ p{
 h2{
     font-size: larger;
     text-align: center;
-    
 }
 a{
     text-decoration: none;
@@ -313,9 +303,4 @@ h3{
     float: right;
     width: 600px;
     height: 300px;
-
 }
-.carousel .item{
-    height: 300px;
-}
-
