@@ -8,87 +8,25 @@
     <link rel="stylesheet" href="/techno/style.css">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script>
-        $(function(){
-            $('.carousel').carousel({
-                interval:3000,
-                Wrap:false
-            });
-        })
-    </script>
 </head>
 <body>
-    
-    <nav>
-        <input type="checkbox" id="check">
-        <label for="check" class="checkbtn">
-            <i class="fas fa-bars"></i>
-        </label> 
-        <label class="logo"></label>
+    <header>
+        <!--nav bar-->
+        <nav> 
+            <!-- logo of tensile tech-->
+        <div class="img1">
+           <img src="/techno/images/tensiletechlogo.jpg" alt="" style="height: 80px; width: auto;">
+        </div>
+   
         <ul  class="navigation">
             <li> <a href="about.html">About</a></li>
             <li> <a href="services.html">services</a></li>
-            <li> <a href="client.html">Clients</a></li>
+            <li> <a href="clients.html">Clients</a></li>
             <li> <a href="careers.html">careers</a></li>
             <li> <a href="contact.html">contact</a></li>
         </ul>
     </nav>
-
-    <img class="tensile" src="/techno/images/tensiletechlogo.jpg" alt="pic" width="50px" height="100px">
-    <br>
-    <br>
-    
-    <div class="container">
-        <div class="row py-3" >
-            <div class="col text-center">
-                <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                        <li data-target="#myCarousel" data-slide-to="1"></li>
-                        <li data-target="#myCarousel" data-slide-to="2"></li>
-                    </ol>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active" data-interval="3000" >
-                            <img class="img" src="/techno/images/startuo.jpeg" alt="" >
-                            <br>
-                            <h3 class="fs-3 text-danger text-center d-block w-100"> We are your startup's tech plugin </h3>
-                            <br>
-                             <p class="fs-4 text-center"> We empower your startup with comprehensive technological solutions,breaking through barriers and propelling growth to new heights with our expertise,your journey is poised for accelerated success</p>
-                             <br>
-                             <a href="/techno/explore.html" class="btn btn-danger bg-danger text-white w-30  p-3"> Explore </a>
-                             <br>
-                             <br>
-                        </div>
-                        <br>
-                        <div class="carousel-item" data-interval="3000" >
-                            <img class="img" src="/techno/images/team.jpeg" alt="">
-                            <h3 class="fs-3 text-danger text-center"> Need a Team?</h3>
-                            <br>
-                            <p class="fs-4 text-center"> We incubate startups and form meaningful teams in the process. Come find out Exceptional Teammates among our community and connect with them.</p>
-                            <br>
-                            <a href="/techno/findoutmore.html" class="btn btn-danger bg-danger text-white w-30  p-3"> Find Out more</a>
-                        </div>
-                        <br>
-                        <div class="carousel-item" data-interval="3000">
-                            <img class="img" src="/techno/images/opensource.jpeg" alt="">
-                            <h3 class="fs-3 text-danger text-center">Have an Opensource project?</h3>
-                            <br>
-                            <p class="fs-4 text-center">Let us assist you in refining your open source project, transforminh it into a world-class endeavor. With our extensive network of talented developers abd mentors, we'll provide the suppport and guidance you need to unlock it's full potential.</p>
-                            <br>
-                            <a  href="mailto:tensiletechofficial@gmail.com" class="btn btn-danger bg-danger text-white w-30  p-3">Contact Us</button></a>
-                            <br>
-                        </div>
-                       <br>
-                    <a href="#myCarousel" class="carousel-control-prev" data-slide="prev" >
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    </a>
-                    <a href="#myCarousel" class="carousel-control-next" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
+</header>
     <h3 class="head">Why Tensile Tech?</h3>
     <br>
     <p>We are a team of skilled professionals specialized in areas such as Designing, Software Development, Digital Marketing, Content Writing. We can help you create your digital presense by services such as branding, website, SEO, Digital marketing etc. We can take care of all the complex technology involved so that you can purely focus on your business!</p>
@@ -96,103 +34,115 @@
     <p>Our experts boast extensive experience with popular tools and technologies, enabling them to craft exceptional tech and digital solutions for startups.</p>
     <br><br>
     <div class="pics">
-        <IMG class="figma" SRC="/techno/images/figma.jpeg.jpg" ALT=""> 
+        <img class="figma" src="/techno/images/figma.jpeg.jpg" alt="" > 
         <img class="b" src="/techno/images/wordpress.jpeg.jpg" alt="">
         <img class="b" src="/techno/images/react.jpeg.jpg" alt="">
         <img  class="d" src="/techno/images/angular.jpeg.jpg" alt="">
-        <br><br>
         <img class="c" src="/techno/images/excel.jpeg.jpg" alt="">
         <img class="b" src="/techno/images/ps.jpeg.jpg" alt="">
         <img class="ps" src="/techno/images/pr.jpeg.jpg" alt="">
         <img  class="b" src="/techno/images/googledrive.jpeg.jpg" alt="">
+        <br>
+        <b style="text-align: center;"> &amp; many more !</b>
     </div>
-    <br><br><br>
+
+
+    <!--Speciality section-->
     <p>Our diverse team brings together a wide range of expertise crucial for driving technology and digitization in startups, ensuring comprehensive solutions that fuel your success. </p>
-    <br><br>
+    
     <h3 class="head">Our Speciality</h3>
     <br>
     <p>We are specialized in Web/Mobile apps developments</p>
     <br>
-
-    <img class="pencil" src="/techno/images/pencil.jpeg.jpg" alt="">
-    <br><br><br>
-    <h3 class="a">We Wireframe</h3>
-    <br>
-    <p>we're here to assist you in planning and bringing your ideas to life through prototypes and wireframes, setting the stage for remarkable solutions.</p>
-    <br>
-    <img class="document" src="/techno/images/dow.jpg" alt="">
-    <br><br><br>
-    <h3 class="a">Code/Develop</h3>
-    <br>
-    <p>we're here to assist you in planning and bringing your ideas to life through prototypes and wireframes, setting the stage for remarkable solutions</p>
-    <br>
-    <img class="mobile" src="/techno/images/mobile.jpeg.jpg" alt="">
-    <br><br>
-    <h3 class="a">Deploy & Maintain</h3>
-    <br>
-    <p>Our team of specialized architects and DevOps experts are here to meticulously plan, deploy, and maintain your applications, ensuring cost-effective and optimal operations that drive your business forward.</p>
-    <br>
-    <h3 class="head">Our Clients & partners</h3>
-    <br><br>
-    <p>Our journey has been intertwined with young and promising startups, businesses, and institutions. As we continue on this path, we eagerly anticipate welcoming more into our growing family.</p>
-    <br><br>
-    <div class="content">
-        <img class="temple" src="/techno/images/templeone.jpeg.jpg" alt="">
-        <img class="fa" src="/techno/images/fa.jpeg.jpg" alt="">
-        <img class="cognoprime" src="/techno/images/cognoprime.jpeg.jpg" alt="">
-        <img class="dakshaprabha" src="/techno/images/dakshaprabha.jpeg.jpg" alt="">
-        <img class="UVCE" src="/techno/images/UVCE.jpeg.jpg" alt="">
-        <br><br>
-        <img class="yisely" src="/techno/images/yisely.jpeg.jpg" alt="">
-        <img class="iceas" src="/techno/images/iceas.jpeg.jpg" alt="">
-        <img class="lokahh" src="/techno/images/lokahh.jpeg.jpg" alt="">
-        <img class="logo" src="/techno/images/ithy.jpeg.jpg" alt="">
-        <img class="wifi" src="/techno/images/wifi.jpeg.jpg" alt="">
+    <div class="flex">
+        <div class="special">
+            <img class="pencil" src="/techno/images/pencil.jpeg.jpg" alt="">
+            <h3 class="a">We Wireframe</h3>
+            <p class="paragraph">we're here to assist you in planning and bringing your ideas to life through prototypes and wireframes, setting the stage for remarkable solutions.</p>
+        </div>
+        <div class="special">
+            <img class="document" src="/techno/images/dow.jpg" alt="">
+            <h3 class="a">Code/Develop</h3>
+            <p class="paragraph">we're here to assist you in planning and bringing your ideas to life through prototypes and wireframes, setting the stage for remarkable solutions</p>
+        </div>
+        <div class="special">
+            <img class="mobile" src="/techno/images/mobile.jpeg.jpg" alt="">
+            <h3 class="a">Deploy & Maintain</h3>
+            <p class="paragraph">Our team of specialized architects and DevOps experts are here to meticulously plan, deploy, and maintain your applications, ensuring cost-effective and optimal operations that drive your business forward.</p>
+        </div>
     </div>
-    <br><br><br><br><br>
+    <br><br>
+    <!-- Clients section -->
+    <div class="clients"></div>
+        <h3 class="c_title">Our Clients & partners</h3>
+        <br><br>
+        <p class="p_clients">Our journey has been intertwined with young and promising startups, businesses, and institutions. As we continue on this path, we eagerly anticipate welcoming more into our growing family.</p>
+         <ul class="clients_images">
+            <img class="temple" src="/techno/images/templeone.jpeg.jpg" alt="">
+            <img class="fa" src="/techno/images/fa.jpeg.jpg" alt="">
+            <img class="cognoprime" src="/techno/images/cognoprime.jpeg.jpg" alt="">
+            <img class="dakshaprabha" src="/techno/images/dakshaprabha.jpeg.jpg" alt="">
+            <img class="UVCE" src="/techno/images/UVCE.jpeg.jpg" alt="">
+            <br><br>
+            <img class="yisely" src="/techno/images/yisely.jpeg.jpg" alt="">
+            <img class="iceas" src="/techno/images/iceas.jpeg.jpg" alt="">
+            <img class="lokahh" src="/techno/images/lokahh.jpeg.jpg" alt="">
+            <img class="logo" src="/techno/images/ithy.jpeg.jpg" alt="">
+            <img class="wifi" src="/techno/images/wifi.jpeg.jpg" alt="">
+        </ul>
+    </div>
+    <br><br>
+    <!-- services section -->
     <h3 class="head">Join Our Team</h3>
     <br>
+    <div class="head1">
     <p>At Tensile Tech, we don't just assess your resume or academics. We value your skills and passion, and if we see the potential for you to make a difference in our startup, you're in!
         Join us for a transformative journey where you'll have the opportunity to explore and collaborate with numerous startups, working on projects that could redefine the industry.du</p>
+    </div>
     <br>
     <p>We are looking for interns and professionals</p>
+    
     <br>
-    <div class="BD">
-    <h3><b><u>Backend Developer</u></b></h3>
-    <br><br>
-    <h2>CRUD Operations</h2>
-    <br>
-    <h2>Firebase / SQL databases</h2>
-    <br>
-    <h2>Nodejs / PHP </h2>
-    <br>
-    <a class="btn" href="mailto:tensiletechofficial@gmail.com"><button>Get in touch</button></a>
-    </div>
-    <br>
-    <div class="GD">
-    <h3><b><u>Graphic Designer & UI/UX </u></b></h3>
-    <br>
-    <h2>(any other design skills)</h2>
-    <br>
-    <h2>Adobe Illustrator</h2>
-    <br>
-    <h2>Adobe photoshop</h2>
-    <br>
-    <h2> Adobe Premier pro figma</h2>
-    <br><br>
-    <a class="btn" href="mailto:tensiletechofficial@gmail.com"><button>Get in Touch</button></a>
-    </div>
-<div class="OS">
-    <h3><b><u>Operations Specialist</u></b></h3>
-    <br><br>
-    <h2>Communication skills</h2>
-    <br>
-    <h2>Document tools</h2>
-    <br>
-    <h2>Task managment</h2>
-    <br>
-    <a class="btn" href="mailto:tensiletechofficial@gmail.com"><button>Get in Touch</button></a>
-</div>
+    <section class="team">
+        <div class="BD">
+            <h3><b><u>Backend Developer</u></b></h3>
+            <br><br>
+            <h2>CRUD Operations</h2>
+            <br>
+            <h2>Firebase / SQL databases</h2>
+            <br>
+            <h2>Nodejs / PHP </h2>
+            <br>
+            <a class="btn" href="mailto:tensiletechofficial@gmail.com"><button>Get in touch</button></a>
+        </div>
+
+        <div class="GD">
+            <h3><b><u>Graphic Designer & UI/UX </u></b></h3>
+            <br>
+            <h2>(any other design skills)</h2>
+            <br>
+            <h2>Adobe Illustrator</h2>
+            <br>
+            <h2>Adobe photoshop</h2>
+            <br>
+            <h2> Adobe Premier pro figma</h2>
+            <br><br>
+            <a class="btn" href="mailto:tensiletechofficial@gmail.com"><button>Get in Touch</button></a>
+        </div>
+
+        <div class="OS">
+            <h3><b><u>Operations Specialist</u></b></h3>
+            <br><br>
+            <h2>Communication skills</h2>
+            <br>
+            <h2>Document tools</h2>
+            <br>
+            <h2>Task managment</h2>
+            <br>
+            <a class="btn" href="mailto:tensiletechofficial@gmail.com"><button>Get in Touch</button></a>
+        </div>
+</section>
+<!--contact section-->
 <div class="contact">
 <h3 style="color: white;"> <b>Contact us </b> </h3>
 <br>
